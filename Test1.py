@@ -1,8 +1,6 @@
 import pandas as pd
 df = pd.read_csv("tsv.txt", sep="\s")
-df.to_csv('tsv,txt',header=df.columns, index=None, sep=' ')
 df1=pd.read_csv("tsv1.txt", sep="\s")
-df1.to_csv('tsv1,txt',header=df.columns, index=None, sep=' ')
 r=pd.concat([df,df1])
 r1=pd.merge(df, df1, on='key')
 r2=pd.merge(df, df1, on='key', how='left')
