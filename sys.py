@@ -10,6 +10,5 @@ print ("Hyd")
 print ("Scenario1")
 print ("Sceanrio2")
 print (sys.version)
-print ("USA")
 print ("Hello Hyd")
 
