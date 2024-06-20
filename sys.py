@@ -4,3 +4,5 @@ if 'Urllib3' in sys.modules:
 else:        
      print("Module not present")
 print(sys.modules.keys())
+
+print (sys.version)
