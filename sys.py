@@ -9,6 +9,5 @@ print ("Delhi to mumbai")
 print ("Hyd")
 
 print (sys.version)
-print ("USA")
 print ("Hello Hyd")
 
