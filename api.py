@@ -14,3 +14,4 @@ with open('sample.txt', 'w')as file:
 file = open('sample.txt', 'r')
 print(file.read())
 
+print ("Mumbai")
