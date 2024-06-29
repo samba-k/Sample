@@ -1,4 +1,4 @@
-mport getpass
+import getpass
 try:
         p=getpass.getpass()
 except Exception as error:
