@@ -1,0 +1,10 @@
+name: On Push Run
+on: [push]
+jobs:
+  check-python-script:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          python-version: "3.0"
+      - run: python getp.py
