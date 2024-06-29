@@ -1,13 +1,10 @@
 name: On Push Run
-
-on: push
+on: [push]
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: checkout repo content
-      - uses: actions/checkout@v2 # checkout the repository conten       
-      with:
-          python-version : 3.0
-      - name: execute py scrit
-      - run: python getpass.py
+  check-python-script:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          python-version: "3.0"
+      - run: python getpass.py
