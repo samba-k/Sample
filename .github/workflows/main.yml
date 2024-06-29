@@ -7,4 +7,4 @@ jobs:
       - uses: actions/checkout@v2
         with:
           python-version: "3.0"
-      - run: python getpass.py
+      - run: python ./Sample./getpass.py
