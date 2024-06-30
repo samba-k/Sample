@@ -8,6 +8,7 @@ result2 = re.split(pattern, string)
 print(result)
 print(result1)
 print(result2)
+print("Testing Merge") #Added by Siva
 
 pattern = 'o{2,3}'
 string = 'a afoot is a foot for a foootbal'
