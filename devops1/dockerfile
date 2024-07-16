@@ -1,0 +1,7 @@
+FROM PYTHON
+WORKDIR /app
+COPY requrements.txt/app
+COPY systemdata.py /app
+RUN pip install --no-cache-dir -r requirements.txt
+CMD ["python", systemdata.py]
+
